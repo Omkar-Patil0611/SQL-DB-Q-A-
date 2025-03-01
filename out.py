@@ -10,7 +10,7 @@ engine = create_engine(db_url)
 db = SQLDatabase(engine)
 
 # Step 2: Initialize Groq LLM
-llm = ChatGroq(api_key="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", model_name="llama3-70b-8192")  # Replace with your Groq API key
+llm = ChatGroq(api_key=" ", model_name="llama3-70b-8192")  # Replace with your Groq API key
 
 # Step 3: Create the SQL QA Chain
 db_chain = SQLDatabaseChain.from_llm(llm, db, verbose=True)
