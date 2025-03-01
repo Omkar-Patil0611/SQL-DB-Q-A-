@@ -1,0 +1,7 @@
+langchain
+langchain-experimental
+langchain-groq
+sqlalchemy
+psycopg2-binary  # For PostgreSQL; remove if using another database
+mysql-connector-python  # Uncomment if using MySQL
+sqlite3  # Built into Python, but listed for clarity
